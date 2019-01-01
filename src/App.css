@@ -30,3 +30,20 @@
     transform: rotate(360deg);
   }
 }
+
+.column {
+  display: inline;
+  width: 30%;
+  float: left;
+  padding: 8px;
+  /* background-color: purple; */
+}
+
+#cocktail-list {
+  height: 100vh;
+  overflow: scroll;
+}
+
+body {
+  background-color: lightgrey;
+}
