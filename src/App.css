@@ -36,7 +36,35 @@
   width: 30%;
   float: left;
   padding: 8px;
-  /* background-color: purple; */
+  /* background-color: white; */
+  /* opacity: 0.7; */
+  /* border: 1; */
+
+}
+
+.column1 {
+
+  display: inline;
+  width: 30%;
+  float: left;
+  padding: 8px;
+  background-color: white;
+  border: 1px gray;
+  border-radius: 15px;
+  margin-top: 1rem;
+}
+
+.column2 {
+
+  display: inline;
+  width: 30%;
+  float: left;
+  padding: 6px;
+  background-color: white;
+  border: 1px gray;
+  border-radius: 15px;
+  margin-top: 1rem;
+  margin-left: 1rem;
 }
 
 #cocktail-list {
@@ -45,5 +73,17 @@
 }
 
 body {
-  background-color: lightgrey;
+  /* background-color: white; */
+  background-image: url("image4.jpg");
+  height: 100%;
+  margin: 0;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
+
+/* .pict {
+  background-image: url("image4.jpg");
+} */

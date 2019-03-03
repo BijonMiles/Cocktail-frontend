@@ -14,7 +14,7 @@ class CocktailsDisplay extends Component {
         return <Ingredients key={ingredient.id} ingredient={ingredient}/>
       })
     }
-    return ( <div className="column">
+    return ( <div className="column1">
       <h1>{this.props.selected.name}</h1>
       <strong> {this.props.selected.description} </strong>
       <p> {this.props.selected.instructions} </p>

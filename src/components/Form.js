@@ -6,7 +6,7 @@ class Form extends Component {
   render() {
 
     // console.log(this.props);
-    return (<div className="column">
+    return (<div className="column2">
         <form onSubmit={(event) => this.props.submitHandler(event)}>
         <h2> Create a Cocktail</h2>
 
