@@ -14,14 +14,28 @@ class CocktailsDisplay extends Component {
         return <Ingredients key={ingredient.id} ingredient={ingredient}/>
       })
     }
-    return ( <div className="column1">
-      <h1>{this.props.selected.name}</h1>
-      <strong> {this.props.selected.description} </strong>
-      <p> {this.props.selected.instructions} </p>
-      <h1>Ingredient</h1>
-      {extraArr}
-       </div>)
+    return (
+      <div>
+        {this.props.selected.id ? (
+
+          <div className="column1">
+            <h1>{this.props.selected.name}</h1>
+            <strong> {this.props.selected.description} </strong>
+            <p> {this.props.selected.instructions} </p>
+
+            {extraArr}
+          </div>)
+
+        :
+          (<div className="column4">
+            <h1> 🍾  Wine Banaza! 🍾 </h1>
+          </div>)
+        }
+      </ div>
+    )
   }
 }
+
+// <h1>Ingredient</h1>
 
 export default CocktailsDisplay;

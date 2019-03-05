@@ -63,13 +63,27 @@
   background-color: white;
   border: 1px gray;
   border-radius: 15px;
-  margin-top: 1rem;
+  margin-top: 8rem;
   margin-left: 1rem;
+}
+
+.column4 {
+  display: inline;
+  width: 30%;
+  float: left;
+  padding: 6px;
+  margin: auto;
 }
 
 #cocktail-list {
   height: 100vh;
   overflow: scroll;
+  /* border-radius: 15px; */
+}
+
+input[type=search] {
+  border-radius: 20px;
+  width: 9rem;
 }
 
 body {

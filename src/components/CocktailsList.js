@@ -12,11 +12,13 @@ class CocktailsList extends Component {
             clickHandler={this.props.clickHandler}/>)
     })
     // console.log(this.props);
-    return (<div className="column" >
-          Search: <input onChange={(e) => this.props.searchHandler(e)} />
-        <div id="cocktail-list">
+    return (
 
+    <div className="column" >
 
+      <input type="search" placeholder="    Find Me" onChange={(e) => this.props.searchHandler(e)} />
+
+      <div id="cocktail-list">
         <br />
         {cocktailArr}
       </div>
