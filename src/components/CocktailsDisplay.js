@@ -16,14 +16,22 @@ class CocktailsDisplay extends Component {
     }
     return (
       <div>
+
         {this.props.selected.id ? (
 
-          <div className="column1">
-            <h1>{this.props.selected.name}</h1>
-            <strong> {this.props.selected.description} </strong>
-            <p> {this.props.selected.instructions} </p>
+          <div className="column4">
+            <div className="adjust">
+              <h1> 🍾  Wine Banaza! 🍾 </h1>
+            </div>
 
-            {extraArr}
+            <div className="column5">
+              <h1>{this.props.selected.name}</h1>
+              <strong> {this.props.selected.description} </strong>
+              <p> {this.props.selected.instructions} </p>
+
+
+              {extraArr}
+            </div>
           </div>)
 
         :

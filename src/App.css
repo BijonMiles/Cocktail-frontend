@@ -33,9 +33,10 @@
 
 .column {
   display: inline;
-  width: 30%;
+  width: 20%;
   float: left;
   padding: 8px;
+  background-color: #a4728b;
   /* background-color: white; */
   /* opacity: 0.7; */
   /* border: 1; */
@@ -69,10 +70,25 @@
 
 .column4 {
   display: inline;
-  width: 30%;
+  width: 40%;
   float: left;
   padding: 6px;
   margin: auto;
+}
+
+.adjust, h1 {
+  position: center;
+  text-align: center;
+}
+
+.column5 {
+  float: left;
+  padding: 6px;
+  background-color: white;
+  border: 1px gray;
+  border-radius: 15px;
+  margin-top: 2.5rem;
+  margin-left: 1rem;
 }
 
 #cocktail-list {

@@ -15,9 +15,9 @@ class CocktailsList extends Component {
     return (
 
     <div className="column" >
-
-      <input type="search" placeholder="    Find Me" onChange={(e) => this.props.searchHandler(e)} />
-
+      <div className="adjust">
+        <input type="search" placeholder="    Find Me" onChange={(e) => this.props.searchHandler(e)} />
+      </div>
       <div id="cocktail-list">
         <br />
         {cocktailArr}
