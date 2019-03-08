@@ -21,11 +21,11 @@ class CocktailsDisplay extends Component {
 
           <div className="column4">
             <div className="adjust">
-              <h1> 🍾  Wine Banaza! 🍾 </h1>
+              <h1 className="title">  Wine Banaza! </h1>
             </div>
 
             <div className="column5">
-              <h1>{this.props.selected.name}</h1>
+              <h1 >{this.props.selected.name}</h1>
               <strong> {this.props.selected.description} </strong>
               <p> {this.props.selected.instructions} </p>
 
@@ -36,7 +36,7 @@ class CocktailsDisplay extends Component {
 
         :
           (<div className="column4">
-            <h1> 🍾  Wine Banaza! 🍾 </h1>
+            <h1 className="title">   Wine Banaza!  </h1>
           </div>)
         }
       </ div>

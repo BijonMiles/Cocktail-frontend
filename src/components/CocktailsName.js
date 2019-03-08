@@ -4,7 +4,7 @@ import React from 'react'
 const CocktailsName = props => {
   // console.log(props);
 
-  return (<div> <ul onClick={(event) => props.clickHandler(event, props.cocktail)}> {props.cocktail.name} </ul> </div>)
+  return (<div className="names"> <ul onClick={(event) => props.clickHandler(event, props.cocktail)}> {props.cocktail.name} </ul> </div>)
 
 
 }
