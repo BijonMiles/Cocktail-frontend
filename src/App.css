@@ -120,6 +120,10 @@ input[type=search] {
   width: 9rem;
 }
 
+input[name=name], input[name=instructions] {
+  border-radius: 10px;
+}
+
 body {
   /* background-color: white; */
   background-image: url("image4.jpg");
