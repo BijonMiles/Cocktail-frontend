@@ -191,7 +191,7 @@ class CocktailsContainer extends Component {
   handleIngredigent = (event, idx) => {
 
     let newIngredient = this.state.proportions.map((ingredient, ingredientidx) => {
-      // debugger
+      
       if (idx !== ingredientidx) {
         return ingredient
       } else {

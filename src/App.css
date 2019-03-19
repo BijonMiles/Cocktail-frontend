@@ -112,12 +112,16 @@ h1 {
 #cocktail-list {
   height: 100vh;
   overflow: scroll;
+  /* color: white; */
   /* border-radius: 15px; */
 }
 
 input[type=search] {
   border-radius: 20px;
   width: 9rem;
+  text-align: center;
+  margin-left: 2.5rem;
+  /* position: center; */
 }
 
 input[name=name], input[name=instructions] {
